@@ -97,7 +97,7 @@ header img {
     width: 100%;
     padding: 12px;
     background: #2563eb;
-    color: #ffffff;
+    color: #666000;
     border: none;
     border-radius: 10px;
     cursor: pointer;
