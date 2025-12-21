@@ -35,7 +35,7 @@ body {
 
 /* Header */
 header {
-    background: #ffffff;
+    background: #7b2c3f;
     border-bottom: 1px solid #e5e7eb;
     padding: 24px 0;
     text-align: center;
