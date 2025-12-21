@@ -35,7 +35,7 @@ body {
 
 /* Header */
 header {
-    background: #7b2c3f;
+    background: #8A2B2B;
     border-bottom: 1px solid #e5e7eb;
     padding: 24px 0;
     text-align: center;
@@ -96,7 +96,7 @@ header img {
 .login-container button {
     width: 100%;
     padding: 12px;
-    background: #7b2c3f; /* Rich wine color */
+    background: #8A2B2B; /* Rich wine color */
     color: #ffffff; /* White text for contrast */
     border: none;
     border-radius: 10px;
