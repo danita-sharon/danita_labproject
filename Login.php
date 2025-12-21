@@ -96,8 +96,8 @@ header img {
 .login-container button {
     width: 100%;
     padding: 12px;
-    background: #2563eb;
-    color: #666000;
+    background: #7b2c3f; /* Rich wine color */
+    color: #ffffff; /* White text for contrast */
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -107,10 +107,10 @@ header img {
 }
 
 .login-container button:hover {
-    background: #1d4ed8;
+    background: #5c2230; /* Darker wine for hover */
     transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(123, 44, 63, 0.3); /* Optional wine-tinted shadow */
 }
-
 /* Footer */
 footer {
     margin-top: auto;
