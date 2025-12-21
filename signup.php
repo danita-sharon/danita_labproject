@@ -272,9 +272,7 @@ document.getElementById("signupForm").addEventListener("submit", async function(
 
 
   <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Ashesi University | Attendance Management System</p>
-  </footer>
+  
   <!-- Validation -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script>
