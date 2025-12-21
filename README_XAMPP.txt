@@ -1,0 +1,1 @@
+IMPORTANT: Start XAMPP Control Panel and ensure both Apache and MySQL are running before using the login page. Otherwise, you will get database connection errors.
