@@ -30,7 +30,7 @@ body {
 
 /* Header */
 header {
-    background: #ffffff;
+    background: #440000;
     padding: 50px 24px 30px;
     text-align: center;
     border-bottom: 1px solid #e5e7eb;
