@@ -34,7 +34,7 @@ $student_id = $_SESSION['user_id'];
     
         h4 {
           text-align: center;
-          background-color: #440000;
+          background-color: #330000;
           color: #f5f5f5;
           font-weight: normal;
           margin: 0;
@@ -45,7 +45,7 @@ $student_id = $_SESSION['user_id'];
     
         /* Navigation Bar */
         nav {
-          background-color: #440000;
+          background-color: white;
           padding: 12px 0;
           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
           position: sticky;
@@ -91,7 +91,7 @@ $student_id = $_SESSION['user_id'];
         }
     
         section h3 {
-          color: #660000;
+          color: black;
           font-size: 24px;
           margin-bottom: 10px;
         }
@@ -113,7 +113,7 @@ $student_id = $_SESSION['user_id'];
         }
     
         section ul li a {
-          color: #660000;
+          color: white;
           text-decoration: none;
           font-weight: bold;
           transition: 0.3s ease;
@@ -125,18 +125,7 @@ $student_id = $_SESSION['user_id'];
         }
     
         /* Footer */
-        footer {
-          background-color: #440000;
-          color: white;
-          text-align: center;
-          padding: 12px;
-          font-size: 14px;
-          letter-spacing: 0.5px;
-          position: relative;
-          bottom: 0;
-          width: 100%;
-        }
-    
+        
         /* Responsive Design */
         @media (max-width: 768px) {
           nav ul {
@@ -180,35 +169,15 @@ $student_id = $_SESSION['user_id'];
          <li><a href="available_courses.php">Check New Courses</a></li>
          </ul>
      </section>
-     <section id="my-schedule">
-         <h3>My Schedule</h3>
-         <p>Check your class schedule and upcoming sessions.</p>
-         <ul>
-             <li><a href="#view-schedule">View Weekly Schedule</a></li>
-             <li><a href="#upcoming-sessions">Upcoming Sessions</a></li>
-         </ul>
-     </section>
-     <section id="my-grades">
-         <h3>My Grades</h3>
-         <p>View your grades and performance reports.</p>
-         <ul>
-             <li><a href="#view-grades">View Grades</a></li>
-             <li><a href="#performance-reports">Performance Reports</a></li>
-             <li><a href="#participation-data">Participation Data</a></li>
-         </ul>
-     </section>
+   
      <section id="settings">
          <h3>Settings</h3>
          <p>Manage your account settings and preferences.</p>
          <ul>
-             <li><a href="#account-settings">Account Settings</a></li>
-             <li><a href="#notification-preferences">Notification Preferences</a></li>
              <li><a href="logout.php">Log Out</a></li>
          </ul>
      </section>
 <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Ashesi University | Attendance Management System</p>
-  </footer>
+ 
 </body>
 </html>
